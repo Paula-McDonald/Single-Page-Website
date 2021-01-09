@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+    
+
+<html>
+
+
+<head>
+  
+<meta charset="utf-8" />
+    
+<title>Paula McDonald MSc Interactive Media UCC</title>
+     
+  
+<style> 
+    
+    
+    /*Nav bar style*/
+    .nav {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100px;  
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: fixed;
+        background-color: #78ccbd;
+        width: 100%;
+        font-size: 25px;
+        font-variant:inherit;    
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #0a0a0a;
+        text-align: center;
+        padding: 22px 39px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #e3e7e8;
+    }
+    
+    /*titles style*/
+    .title {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #78ccbd;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+    
+    /*section 1 style*/
+    .logo {
+        float: left; 
+        margin: 10px; 
+    }   
+    .info_para, .info_para2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: justify;
+    }
+    .photo {
+        float: right;
+        padding: 10px;
+    }
+    
+    /*section 2 and 3 style ie table*/
+    table {
+        width:80%; 
+        border: 1px solid black; 
+        margin-top: 30px; 
+        margin-left:auto; 
+        margin-right:auto; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 20px; 
+        text-align: left;
+    }
+    th {
+        padding: 20px;
+    }
+    tr {
+        padding: 20px;
+    }
+    td{
+        padding: 20px;
+    }
+    .shaded {
+        background-color: #dcf7f2;
+    }
+      
+    /*section 4 and 5 style ie. places*/
+    .collage1 {
+        float: left; 
+        margin-top: 10px; 
+        position: static;
+    }
+    .info_para2 {
+        position: static;
+        margin-left: 1em;
+        font-size: 30px; 
+    }
+    #section_5, #section_6 {
+        margin-top: 50px;
+    }
+    .collage2 {
+        float: left; 
+        position: relative;
+        z-index: -1;
+    }
+    .options {
+        margin-left: 52%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #78ccbd;
+    }
+    
+   /*Search Section Style*/ 
+    .searchbar {
+        height: 30px;
+        font-size: 20px;
+        padding: 5px;
+        border-color: #78ccbd; 
+        border-radius: 20px;   
+    }
+    .duckducklogo {
+        float: left;
+        margin-left: 20%;
+    }
+    .go {
+        margin-top: 50px;
+        width: 120px;
+        height: 50px;
+        background-color: #78ccbd;
+        color: #ffffff;
+        border-radius: 20px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .country, .theme, .safe, form {
+        margin-top: 50px;
+    }
+    form {
+        font-size: 25px;
+    }
+    p {
+        color: #000000;
+    }
+    select {
+        border-color: #78ccbd;
+        font-size: 18px;
+    }
+    
+    /*footer style*/
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: #78ccbd;
+        color: #fcfcfc; 
+        margin-top: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+    }
+   
+
+ 
+    
+ 
+</style>
+     
+    
+</head>
+        
+    
+<body>
+    
+       
+<!-------------------------- the navigation bar -------------------------------->
+    
+  <div class="nav">    
+    <ul>
+        <li><a href="#section_1">About Me</a></li>
+        <li><a href="#section_2">UCC Lectures</a></li>
+        <li><a href="#section_3">UCC Labs</a></li>
+        <li><a href="#section_4">My Hometown</a></li>
+        <li><a href="#section_5">Trip of a Lifetime</a></li>
+        <li><a href="#section_6">Search</a></li>
+    </ul>
+  </div>   
+
+      
+      
+<!------------------------ first section containing personal intro --------------->
+      
+<div id = "section_1"> 
+        
+<div  class = "title">  
+    <h1>About Me </h1>  
+</div>
+       
+<!--UCC logo and link top left-->
+<div class="logo">
+    <a href="https://www.ucc.ie/en/"><img src="Media/ucc_logo.png" alt="UCC Logo" width = 400px/></a>
+</div>
+
+    
+    
+    
+<!----------------------------- Personal intro and photo --------------------------> 
+<div class="info_para">
+    <div class="photo">
+        <img src="Media/circlephoto.png" alt="Student Photo" width= 200px/>
+    </div> 
+        <p>My name is <span style="color:#78ccbd;font-weight:bold">Paula McDonald</span> and I am from Kilkenny, Ireland. I graduated from Univeristy College Cork (UCC) in 2015. I lived in Glasgow and in the highlands of Scotland for many years as an artist. I love illustrating and painting. I began creating digital art and returned to college to do a H. Dip in Design.  <br/></p>
+        <p>I was accepted into a <span style="color:#78ccbd;font-weight:bold">Masters in Interactive Media (MScIM)</span> at UCC. The modules include 3D Graphics, Audios and Sound Engineering, Video Editing, Authoring, Programming with Python and Web Development. Please see table below for more information. I am really enjoying the course. It is very practical and I definitely learn better from doing. I hope that we will be able to attend classes at the UCC campus in the new year and meet all my lecturers and classmates in-person. My goal is to learn many new skills that will allow me to create interesting web applications. I am interested in UX design and how to build a visually appealing and highly functional website/application. I would love to build a career in this industry.<br/></p>
+        <p>When I am not studying, I enjoy running, cooking and going to the cinema. I also like music from the 60s and 70s. I am not very good at keeping up to date with new music but I do enjoy attending gigs. This is something I miss a lot during Covid and I hope the entertainment industry and everyone involved, survives these difficult times. I am currently living in Blackrock, Cork where I love to take walks down the marina. It looks very beautiful this time of year with the change of the seasons. This year, I am also learning to drive. This is proving to be far more difficult for me, then learning any programming language. </p>
+
+    </div>
+</div>
+    
+    
+    
+    
+    
+<!--------------------- UCC lectures ie. second section ---------------------------->    
+<div id = "section_2">
+    
+<div  class= "title">  
+    <h1>UCC Lectures </h1>  
+</div>  
+
+<table>    
+<!--table headings-->    
+  <tr>
+    <th>Code</th>
+    <th>Title</th> 
+    <th>Day</th>
+    <th>Time</th> 
+    <th>Description</th>
+  </tr>
+    
+<!--table content-->    
+    <tr class="shaded">
+        <td> <a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6100">CS6100</a></td>
+        <td>Authoring</td>
+        <td>Mon. <br/> Mon. </td>
+        <td>12.00 <br/> 13.00 </td>
+        <td>In this module, we are learning Processing which is a graphics programming language based off of Java. </td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6102">CS6101</a></td>
+        <td>Web Development for Digital Media</td>
+        <td>Wed. <br/> Wed. </td>
+        <td>13.00 <br/> 14.00 </td>
+        <td>Web Development teaches us the core languages needed to build websites including HTML, CSS and Java Script.</td>
+    </tr>
+    
+    <tr class="shaded">
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6102">CS6102</a></td>
+        <td>Graphics for Interactive Media</td>
+        <td>Fri. <br/> Fri. </td>
+        <td>13.00 <br/> 14.00 </td>
+        <td>For this module we are learning Python, it is a very important and widely used programming language.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6103">CS6103</a></td>
+        <td>Audio and Sound Engineering</td>
+        <td>Mon. <br/> Mon. </td>
+        <td>16.00 <br/> 17.00 </td>
+        <td>This module teaches us about the physics of sound and how it is recorded, processed and edited.</td>
+    </tr>
+    
+    <tr class="shaded">
+        <td>
+        <a href="https://www.ucc.ie/admin/registrar/modules/?mod=cs6104">CS6104</a></td>
+        <td>Digital Video Capture and Packaging</td>
+        <td>Wed. <br/> Wed. </td>
+        <td>17.00 <br/> 18.00 </td>
+        <td>For this module we have learned about the processes involved in producing film, TV, photography and digital video.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=cs6111">CS6111</a></td>
+        <td>3D Graphics and Modelling</td>
+        <td><br/> Tue. <br/> Tue.</td>
+        <td><br/> 16.00 <br/> 17.00</td>
+        <td>For this we learn about the history, uses and cutting edge advances in computer graphics. </td>
+    </tr>
+   
+</table>    
+
+</div>
+    
+
+    
+
+    
+    
+<!---------------------third section containing UCC practical lab info------------->
+<div id = "section_3">
+    
+    
+<div  class= "title">  
+    <h1>UCC Labs </h1>  
+</div>   
+    
+    <table>    
+<!--table headings-->    
+  <tr>
+    <th>Code</th>
+    <th>Title</th> 
+    <th>Day</th>
+    <th>Time</th> 
+    <th>Desription</th>
+  </tr>
+        
+    
+<!-----------------------------table content-------------------------------------->    
+    <tr class="shaded">
+        <td> <a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6100">CS6100</a></td>
+        <td>Authoring</td>
+        <td>Wed. </td>
+        <td> 11.00</td>
+        <td>We are building interactive programs using the Processing programming language. </td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6102">CS6101</a></td>
+        <td>Web Development for Digital Media</td>
+        <td>Thurs. </td>
+        <td>15.00 </td>
+        <td>We are building our own websites using HTML, CSS and JavaScript. </td>
+    </tr>
+    
+    <tr class="shaded">
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6102">CS6102</a></td>
+        <td>Graphics for Interactive Media</td>
+        <td>Fri.</td>
+        <td>15.00</td>
+        <td>During these practical sessions, we build interactive interfaces using Python.</td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=CS6103">CS6103</a></td>
+        <td>Audio and Sound Engineering</td>
+        <td>Tues.</td>
+        <td>14.30 </td>
+        <td>We learn how to use various sound editing techniques and software eg. 'Ardour'. </td>
+    </tr>
+    
+    <tr class="shaded">
+        <td>
+        <a href="https://www.ucc.ie/admin/registrar/modules/?mod=cs6104">CS6104</a></td>
+        <td>Digital Video Capture and Packaging</td>
+        <td> Thu.</td>
+        <td> 16.00</td>
+        <td>We are currently capturing and editing video footage to create a final video project. </td>
+    </tr>
+    
+    <tr>
+        <td><a href="https://www.ucc.ie/admin/registrar/modules/?mod=cs6111">CS6111</a></td>
+        <td>3D Graphics and Modelling</td>
+        <td>Mon. </td>
+        <td>14.30</td>
+        <td>We are learning the various complex steps involved in creating 3D graphics using Blender. </td>
+    </tr> 
+        
+</table>
+    
+</div>
+    
+    
+    
+    
+    
+    
+    
+<!--------------fourth section containing info about my hometown--------------------->
+<div id = "section_4">
+    
+    
+<div  class= "title">  
+    <h1>My Hometown - KILKENNY </h1>  
+</div>   
+ 
+    <div class="collage1"><a href = "https://visitkilkenny.ie">
+        <img src="Media/Kilkenny.png" alt="Photos of Kilkenny" width="600px"></a>
+    </div>
+    
+<div class = "info_para2">
+    <p>I am from Kilkenny, Ireland. It is a very small city of approximately 25,000 people. Some people do not consider it a city at all but it was in fact, the first capital city of Ireland in 1642. It is a Medieval city and has lots of beautiful examples of medieval architecture still standing to this day. Kilkenny Castle was built in 1195 and is visited by 800,000 people per year. My favourite thing about Kilkenny is that it has many festival including Kilkenny Arts Festival', 'The Cat Laughs Comedy Festival', 'Subtitle Film Festival', 'Kilkenomics', 'Savour Food Festival' and 'The Roots Festival'. This made it a fun place to grow up as there were constantly interesting things to see and new people to meet.<br><br>
+    For more information: 
+        
+<a href = "https://visitkilkenny.ie">
+    Visit Kilkenny Website </a> 
+    </p>
+</div></div>
+    
+
+    
+    
+    
+<!----------------------Fifth section about where I would like to go-------------->
+<div id = "section_5">
+    
+    
+<div  class= "title">  
+    <h1>Trip of a Lifetime - TOKYO </h1>  
+</div>
+    
+    
+    
+<div class="collage2">
+    <a href = "https://www.skyscanner.ie/routes/dub/tyoa/dublin-to-tokyo.html"><img src="Media/Tokyo.png" alt="Photos of Tokyo" width="600px"></a>
+</div>
+    
+<div class = "info_para2">
+    <p>During a lockdown it is nice to dream about traveling. The place that I would most like to visit would be Tokyo, Japan. I am amazed by the Japanese culture. I love its art, architecture, food, fashion, film and philosophies. I am also interested in its history. My cousins live in Tokyo and I would love to some day visit them. While I am there, I would like to visit tha Harajuku district. I would also like to get lost down the winding back streets. I would like to sample all the different types of food, especially sushi and drink some saki. I hope the lockdown will end so I can start planning this trip.<br><br>To book me flights for Christmas: <a href = "https://www.skyscanner.ie/transport/flights/dub/tyoa/210301/?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27542089&inboundaltsenabled=false&infants=0&originentityid=27540823&outboundaltsenabled=false&preferdirects=false&preferflexible=false&ref=home&rtn=0"> Flights to Tokyo        </a>
+        </p>
+    </div>
+</div>  
+    
+    
+    
+    
+    
+    
+    
+    
+<!-----Sixth section about where user can search DuckDuckGo--------------->
+    
+<div id = "section_6">
+<div  class = "title">  
+        <h1>SEARCH</h1>  
+    </div>
+    
+    
+<div class="duckducklogo">
+    <img src="Media/duckducklogo.png" alt="DuckDuckGo Logo" width="400px">
+    </div>
+   
+  
+<!--------------------------- FORMS BEGIN ------------------------------> 
+<form action="https://duckduckgo.com">
+  
+
+<div class="options">    
+<!--------------------------- Choose a Country -------------------------->  
+<div class="country">
+    <p>1. Choose Your Country</p>  
+    <label for="lang">Ireland
+        <input type="radio" name="kl" value="ie-en">
+    </label> 
+    <label for="lang">Germany
+        <input type="radio" name="kl" value="de-de">
+    </label>
+    <label for="lang">China
+        <input type="radio" name="kl" value="cn-zh">
+    </label> </div>
+
+<!--------------------- Change Safe Search Setting ------------------------>
+<div class="safe">
+    <p>2. Safe Search Options</p>  
+
+        <label for="safe_search">Moderate
+            <input type="radio" name="kp" value="-1">
+        </label>
+        <label for="safe_search">Strict
+            <input type="radio" name="kp" value="1">
+        </label> 
+    </div>
+
+<!---------------------------- Choose a Theme -----------------------------> 
+<div class="theme">
+<p> 3. Choose a  Theme</p>
+  <label for="theme">Themes:</label>
+  <select id="theme" name="kae"> 
+    <option value="-1">Default</option>   
+    <option value="c">Contrast</option>    
+    <option value="r">Retro</option>       
+    <option value="d">Dark</option>      
+    <option value="t">Terminal</option>         
+  </select>
+  </div>   
+      
+<!---------------------------To enter search-------------------------------->
+<p>4. Search for:</p>
+    <input class="searchbar" type="text" name="q"><br>  
+
+
+
+
+<!---------------------------To submit your search--------------------------->
+    
+    <input class = "go" type="submit" value="Go">
+  
+
+</div>
+    
+    </form>
+</div>
+    
+
+   
+<footer>
+    <p>Website created by Paula McDonald as part of Web Devlopment CS-6101 with Dr. Frank Boehme (2020)</p>    
+</footer>
+  
+    
+    
+</body>
+    
+
+    
+</html>
